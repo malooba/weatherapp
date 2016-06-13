@@ -6,6 +6,7 @@
 @model IEnumerable<WeatherEntity>
 
 <div>
+    <h1>I am a new version</h1>
     <table width="900">
         <tr><th>Time</th><th>Temperature</th><th>Pressure</th><th>Humidity</th></tr>
         @foreach(var weather in Model)
@@ -17,5 +18,5 @@
                 <td width="20%">@weather.Humidity</td>
             </tr>
         }
-    </table> 
+    </table>
 </div>
